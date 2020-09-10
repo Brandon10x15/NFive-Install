@@ -22,6 +22,7 @@ Press Ctrl+C at any time to quit.
 	Install FiveM server?: (yes)
 
 FiveM server configuration...
+
 	server name: (NFive) YOUR_SERVER_NAME
 	server max players: (32)
 	server locale: (en-US)
