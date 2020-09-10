@@ -15,7 +15,8 @@ nfpm.exe (https://dl.nfive.io/nfpm.exe)
 
 nuget.exe (https://dist.nuget.org/win-x86-commandline/latest/nuget.exe)
 
-
+Procedure:
+-
 	1. Move 'nfpm.exe' and 'nuget.exe' to your 'Local Disk (C:)\Windows' folder in order to use it in all directories.
 ​
 
