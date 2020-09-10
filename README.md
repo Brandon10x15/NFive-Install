@@ -8,7 +8,8 @@ Prerequisites:
 
 
 	1. (Optional) Move 'nfpm.exe' and 'nuget.exe' to your 'Local Disk (C:)\Windows' folder in order to use it in other directories.
- -
+ 
+
 	2. Open Command Prompt and do the following to start the NFive setup and install 2 plugins.
 
 "
