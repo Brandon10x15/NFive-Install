@@ -111,7 +111,7 @@ Creating script environments for _cfx_internal
 Found new resource nfive in C:/GTA\nFive\Install\server/resources//nfive
 Found new resource monitor in C:\GTA\nFive\Install\server\citizen/system_resources//monitor
 Found new resource webadmin in C:\GTA\nFive\Install\server\citizen/system_resources//webadmin
-←[93mCouldn't find resource sessionmanager.←[0m
+Couldn't find resource sessionmanager.
 Creating script environments for monitor
 Started resource monitor
 Creating script environments for nfive
@@ -123,20 +123,18 @@ Creating script environments for nfive
 Instantiated instance of script NFive.Server.Program.
 2020-09-09T23:07:08 [Trace] [FiveM] Triggered: onResourceStart
 Started resource nfive
-[93mWarning: `onesync_enabled` is deprecated. Please use `onesync legacy` instead.
-[0mAuthenticating server license key...
+Warning: `onesync_enabled` is deprecated. Please use `onesync legacy` instead.
+Authenticating server license key...
 cfx> Server license key authentication succeeded. Welcome!
-[93mAuthenticating with Nucleus...[0m
-[91m        fff
-[91m  cccc ff   xx  xx     rr rr    eee
-[91mcc     ffff   xx       rrr  r ee   e
-[91mcc     ff     xx   ... rr     eeeee
-[91m ccccc ff   xx  xx ... rr      eeeee
-                                     [0m
-[32mAuthenticated with cfx.re Nucleus: [0mhttps://brandon10x15-8lkklm.users.cfx.re/
+Authenticating with Nucleus...[0m
+        fff
+  cccc ff   xx  xx     rr rr    eee
+cc     ffff   xx       rrr  r ee   e
+cc     ff     xx   ... rr     eeeee
+ ccccc ff   xx  xx ... rr      eeeee
+                               
+Authenticated with cfx.re Nucleus: https://brandon10x15-8lkklm.users.cfx.re/
 Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
-
-	C:\GTA\nFive\server>
 "
 
 	4. Press Ctrl+C to stop the server and keep the command prompt open.
