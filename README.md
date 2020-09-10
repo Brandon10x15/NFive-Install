@@ -11,10 +11,10 @@ Prerequisites:
 ​
 
 	2. Open Command Prompt and do the following to start the NFive setup and install 2 plugins.
-
 "
 
 	C:\Users\Home>cd C:\GTA\nFive
+​
 
 	C:\GTA\nFive>nfpm setup
 
@@ -29,12 +29,26 @@ Press Ctrl+C at any time to quit.
 FiveM server configuration...
 
 	server name: (NFive) YOUR_SERVER_NAME
+​
+
 	server max players: (32)
+​
+
 	server locale: (en-US)
+​
+
 	enable OneSync: (yes)
+​
+
 	server tags (separate with space): (NFive) default roleplay nfive
+​
+
 	server license key (https://keymaster.fivem.net/): YOUR_FIVEM_SERVER_KEY
+​
+
 	Steam API license key (https://steamcommunity.com/dev/apikey): (<disabled>) YOUR_STEAM_API_KEY
+​
+
 	RCON password: (<disabled>) **********
 	
 Finding available FiveM Windows server versions...
@@ -50,9 +64,17 @@ Installing FiveM Windows server...
 NFive database configuration...
 
 	database host: (localhost)
+​
+
 	database port: (3306)
+​
+
 	database user: (root)
+​
+
 	database password: (<blank>) YOUR_DATABASE_PASSWORD
+​
+
 	database name: (fivem)
 
 Finding latest NFive version...
@@ -62,11 +84,13 @@ Installing NFive...
 Installation is complete, you can now start the server with `nfpm start`!
 
 	C:\GTA\nFive>cd server
+​
 
 	C:\GTA\nFive\server>nfpm install NFive/plugin-loadingscreen
 
 https://hub.nfive.io/api/project/NFive/plugin-loadingscreen.json
 + NFive/plugin-loadingscreen@^1.3.0
+​
 
 	C:\GTA\nFive\server>nfpm install NFive/plugin-start
 
@@ -116,8 +140,10 @@ Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
 "
 
 	4. Press Ctrl+C to stop the server and keep the command prompt open.
+​
 
 	5. Navigate to your server folder, 'C:\GTA\nFive', and open 'server.cfg' in a text editor.
+​
 
 	6. Port forward the default server port, '30120', or change the following and port forward your own port. 
 	Leave the [::] alone and only change the port to your own.
@@ -125,8 +151,10 @@ Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
 	endpoint_add_tcp "[::]:30120"
 	endpoint_add_udp "[::]:30120"
 	"
+​
 
 	7. Open the command prompt we were using and run 'nfpm start' in your server folder, 'C:\GTA\nFive\server'.
+​
 
 	8. Open up FiveM and navigate to the settings icon at the top right.
 	Check 'enable the "localhost" menu item'.
