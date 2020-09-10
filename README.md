@@ -3,8 +3,8 @@ A quick guide to walk you through the already quick and easy installation proces
 
 NFive Quick Install Instructions
 
-	Prerequisites:
-		MySQL Server
+Prerequisites:
+	MySQL
 
 
 	1. (Optional) Move 'nfpm.exe' and 'nuget.exe' to your 'Local Disk (C:)\Windows' folder in order to use it in other directories.
