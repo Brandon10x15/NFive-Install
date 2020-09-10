@@ -8,7 +8,7 @@ A quick guide to walk you through the already quick and easy installation proces
 			nuget.exe (https://dist.nuget.org/win-x86-commandline/latest/nuget.exe)
 ​
 
-	1. (Optional) Move 'nfpm.exe' and 'nuget.exe' to your 'Local Disk (C:)\Windows' folder in order to use it in other directories.
+	1. Move 'nfpm.exe' and 'nuget.exe' to your 'Local Disk (C:)\Windows' folder in order to use it in all directories.
 ​
 
 	2. Open Command Prompt and do the following to start the NFive setup and install 2 plugins.
