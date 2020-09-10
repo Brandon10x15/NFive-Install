@@ -11,131 +11,112 @@ Prerequisites:
 ​
 
 	2. Open Command Prompt and do the following to start the NFive setup and install 2 plugins.
-"
 
 	C:\Users\Home>cd C:\GTA\nFive
-​
 
 	C:\GTA\nFive>nfpm setup
 
-This utility will walk you through setting up a new FiveM server with NFive installed.
-
-The server will be installed at C:\GTA\nFive\server
-
-Press Ctrl+C at any time to quit.
+		This utility will walk you through setting up a new FiveM server with NFive installed.
+		The server will be installed at C:\GTA\nFive\server
+		Press Ctrl+C at any time to quit.
 
 	Install FiveM server?: (yes)
 
-FiveM server configuration...
+		FiveM server configuration...
 
 	server name: (NFive) YOUR_SERVER_NAME
-​
 
 	server max players: (32)
-​
 
 	server locale: (en-US)
-​
 
 	enable OneSync: (yes)
-​
 
 	server tags (separate with space): (NFive) default roleplay nfive
-​
 
 	server license key (https://keymaster.fivem.net/): YOUR_FIVEM_SERVER_KEY
-​
 
 	Steam API license key (https://steamcommunity.com/dev/apikey): (<disabled>) YOUR_STEAM_API_KEY
-​
 
 	RCON password: (<disabled>) **********
-	
-Finding available FiveM Windows server versions...
-567 versions available, latest v2943, recommended v2430, optional v2443
+
+		Finding available FiveM Windows server versions...
+		567 versions available, latest v2943, recommended v2430, optional v2443
 
 	FiveM server version: (latest)
 
-Reading FiveM Windows server v2943 from cache...
-Installing FiveM Windows server...
+		Reading FiveM Windows server v2943 from cache...
+		Installing FiveM Windows server...
 
 	Install NFive?: (yes)
 
-NFive database configuration...
+		NFive database configuration...
 
 	database host: (localhost)
-​
 
 	database port: (3306)
-​
 
 	database user: (root)
-​
 
 	database password: (<blank>) YOUR_DATABASE_PASSWORD
-​
 
 	database name: (fivem)
 
-Finding latest NFive version...
-Reading NFive v0.6.0.219 from cache...
-Installing NFive...
+		Finding latest NFive version...
+		Reading NFive v0.6.0.219 from cache...
+		Installing NFive...
 	
-Installation is complete, you can now start the server with `nfpm start`!
+		Installation is complete, you can now start the server with `nfpm start`!
 
 	C:\GTA\nFive>cd server
-​
 
 	C:\GTA\nFive\server>nfpm install NFive/plugin-loadingscreen
 
-https://hub.nfive.io/api/project/NFive/plugin-loadingscreen.json
-+ NFive/plugin-loadingscreen@^1.3.0
-​
+		https://hub.nfive.io/api/project/NFive/plugin-loadingscreen.json
+		+ NFive/plugin-loadingscreen@^1.3.0
 
 	C:\GTA\nFive\server>nfpm install NFive/plugin-start
 
-https://hub.nfive.io/api/project/NFive/plugin-start.json
-+ NFive/plugin-start@^1.5.1
-https://hub.nfive.io/api/project/NFive/plugin-loadingscreen.json
-"
+		https://hub.nfive.io/api/project/NFive/plugin-start.json
+		+ NFive/plugin-start@^1.5.1
+		https://hub.nfive.io/api/project/NFive/plugin-loadingscreen.json
+​
 
 	3. Run 'nfpm start' to test start the server.
 
-"
 
 	C:\GTA\nFive\server>nfpm start
 
-Starting server...
-Press Ctrl+C to exit
-Creating script environments for _cfx_internal
-Found new resource nfive in C:/GTA\nFive\Install\server/resources//nfive
-Found new resource monitor in C:\GTA\nFive\Install\server\citizen/system_resources//monitor
-Found new resource webadmin in C:\GTA\nFive\Install\server\citizen/system_resources//webadmin
-Couldn't find resource sessionmanager.
-Creating script environments for monitor
-Started resource monitor
-Creating script environments for nfive
-2020-09-09T23:07:05 [Info] NFive 0.6.0.219-alpha
-2020-09-09T23:07:08 [Info] Loading NFive/plugin-loadingscreen@1.3.0
-2020-09-09T23:07:08 [Info] Loading NFive/plugin-start@1.5.1
-2020-09-09T23:07:08 [Debug] 2 plugin(s) loaded, 3 controller(s) created
-2020-09-09T23:07:08 [Info] Server ready
-Instantiated instance of script NFive.Server.Program.
-2020-09-09T23:07:08 [Trace] [FiveM] Triggered: onResourceStart
-Started resource nfive
-Warning: `onesync_enabled` is deprecated. Please use `onesync legacy` instead.
-Authenticating server license key...
-cfx> Server license key authentication succeeded. Welcome!
-Authenticating with Nucleus...[0m
-        fff
-  cccc ff   xx  xx     rr rr    eee
-cc     ffff   xx       rrr  r ee   e
-cc     ff     xx   ... rr     eeeee
- ccccc ff   xx  xx ... rr      eeeee
-                               
-Authenticated with cfx.re Nucleus: https://brandon10x15-8lkklm.users.cfx.re/
-Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
-"
+		Starting server...
+		Press Ctrl+C to exit
+		Creating script environments for _cfx_internal
+		Found new resource nfive in C:/GTA\nFive\Install\server/resources//nfive
+		Found new resource monitor in C:\GTA\nFive\Install\server\citizen/system_resources//monitor
+		Found new resource webadmin in C:\GTA\nFive\Install\server\citizen/system_resources//webadmin
+		Couldn't find resource sessionmanager.
+		Creating script environments for monitor
+		Started resource monitor
+		Creating script environments for nfive
+		2020-09-09T23:07:05 [Info] NFive 0.6.0.219-alpha
+		2020-09-09T23:07:08 [Info] Loading NFive/plugin-loadingscreen@1.3.0
+		2020-09-09T23:07:08 [Info] Loading NFive/plugin-start@1.5.1
+		2020-09-09T23:07:08 [Debug] 2 plugin(s) loaded, 3 controller(s) created
+		2020-09-09T23:07:08 [Info] Server ready
+		Instantiated instance of script NFive.Server.Program.
+		2020-09-09T23:07:08 [Trace] [FiveM] Triggered: onResourceStart
+		Started resource nfive
+		Warning: `onesync_enabled` is deprecated. Please use `onesync legacy` instead.
+		Authenticating server license key...
+		cfx> Server license key authentication succeeded. Welcome!
+		Authenticating with Nucleus...
+		        fff
+		  cccc ff   xx  xx     rr rr    eee
+		cc     ffff   xx       rrr  r ee   e
+		cc     ff     xx   ... rr     eeeee
+		 ccccc ff   xx  xx ... rr      eeeee                           
+		Authenticated with cfx.re Nucleus: https://brandon10x15-8lkklm.users.cfx.re/
+		Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+​
 
 	4. Press Ctrl+C to stop the server and keep the command prompt open.
 ​
