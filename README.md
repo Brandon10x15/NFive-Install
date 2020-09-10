@@ -3,10 +3,15 @@ A quick guide to walk you through the already quick and easy installation proces
 
 Check out the 'NFive Getting Started' documentation for more information. (https://nfive.io/docs/en/overview)
 
-Prerequisites: 	FiveM (https://fivem.net/)
-		MySQL (https://downloads.mariadb.org/mariadb/10.5.5/)
-		nfpm.exe (https://dl.nfive.io/nfpm.exe)
-		nuget.exe (https://dist.nuget.org/win-x86-commandline/latest/nuget.exe)
+Prerequisites:
+
+FiveM (https://fivem.net/)
+
+MySQL (https://downloads.mariadb.org/mariadb/10.5.5/)
+
+nfpm.exe (https://dl.nfive.io/nfpm.exe)
+
+nuget.exe (https://dist.nuget.org/win-x86-commandline/latest/nuget.exe)
 
 	1. Move 'nfpm.exe' and 'nuget.exe' to your 'Local Disk (C:)\Windows' folder in order to use it in all directories.
 ​
