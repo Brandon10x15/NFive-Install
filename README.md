@@ -27,9 +27,9 @@ FiveM server configuration...
 	server max players: (32)
 	server locale: (en-US)
 	enable OneSync: (yes)
-	server tags (separate with space): (NFive) default, roleplay, nfive
-	server license key (https://keymaster.fivem.net/): *************************
-	Steam API license key (https://steamcommunity.com/dev/apikey): (<disabled>) *************************
+	server tags (separate with space): (NFive) default roleplay nfive
+	server license key (https://keymaster.fivem.net/): YOUR_FIVEM_SERVER_KEY
+	Steam API license key (https://steamcommunity.com/dev/apikey): (<disabled>) YOUR_STEAM_API_KEY
 	RCON password: (<disabled>) **********
 	
 Finding available FiveM Windows server versions...
@@ -47,7 +47,7 @@ NFive database configuration...
 	database host: (localhost)
 	database port: (3306)
 	database user: (root)
-	database password: (<blank>) **********
+	database password: (<blank>) YOUR_DATABASE_PASSWORD
 	database name: (fivem)
 
 Finding latest NFive version...
